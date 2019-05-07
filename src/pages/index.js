@@ -2,21 +2,12 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import About from '../components/atoms/About'
 
 const IndexPage = () => (
   <Layout>
     <SEO title='JavaScript Joe' keywords={[`joe previte`, `javascript`, `joe`]} />
-    <div>
-      <ul>
-        <li>Twitter</li>
-        <li>GitHub</li>
-        <li>Dev</li>
-      </ul>
-    </div>
-    <section>
-      <h3>About</h3>
-      <p>Lorem ipsum</p>
-    </section>
+    <About />
     <section>
       <h3>Speaking</h3>
       <p>cool stuff here</p>
