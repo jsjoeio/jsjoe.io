@@ -2,9 +2,10 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import About from '../components/atoms/About'
+import About from '../components/molecules/About'
 import Speaking from '../components/atoms/Speaking'
-import Writing from '../components/atoms/Writing'
+import Writing from '../components/molecules/Writing'
+import Projects from '../components/molecules/Projects'
 
 const IndexPage = () => (
   <Layout>
@@ -12,17 +13,7 @@ const IndexPage = () => (
     <About />
     <Speaking />
     <Writing />
-    <section>
-      <h3>Selected Personal Projects</h3>
-      <div>
-        <h4>Mentored.dev</h4>
-        <p>a game to teach you coding</p>
-      </div>
-      <div>
-        <h4>other thing</h4>
-        <p>a game to teach you coding</p>
-      </div>
-    </section>
+    <Projects />
   </Layout>
 )
 
