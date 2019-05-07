@@ -12,6 +12,11 @@ const Container = styled.header`
 const Title = styled.h1`
   font-size: 3rem;
   margin-bottom: 1rem;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2.75rem;
+    margin: 1rem auto;
+  }
 `
 
 const Tagline = styled.p`
