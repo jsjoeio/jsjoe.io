@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `JavaScript Joe`,
     tagline: `I like getting people excited to learn.`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `JavaScript Joe's portfolio and website. Also known as Joe Previte.`,
     author: `@jsjoeio`,
     social: {
       twitter: `jsjoeio`,
