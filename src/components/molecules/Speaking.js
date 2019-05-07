@@ -6,8 +6,8 @@ const Speaking = () => (
     <h3>Speaking</h3>
     <table>
       <tr>
-        <th>Title</th>
-        <th>Date</th>
+        <th style={{ paddingTop: '0' }}>Title</th>
+        <th style={{ paddingTop: '0' }}>Date</th>
       </tr>
       {talks.map(talk => (
         <tr>

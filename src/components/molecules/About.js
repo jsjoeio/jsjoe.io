@@ -1,5 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
+import Title from '../atoms/Title'
+
 const About = () => {
   const data = useStaticQuery(graphql`
     query AboutQuery {
@@ -12,7 +14,7 @@ const About = () => {
   `)
   return (
     <section>
-      <h3>About</h3>
+      <Title>About</Title>
       <div dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.about }} />
     </section>
   )
