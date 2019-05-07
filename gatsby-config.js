@@ -22,7 +22,8 @@ module.exports = {
         description: 'A simple Chrome extension to help you coordinate across timezones. Input the date and time of your event and then we give you a link where others can view the event in their respective timezone. Timezoning made easy 👏🏼',
         link: 'https://chrome.google.com/webstore/detail/timezoner/kfnfgcafkeoflpapeniggnnkcaijgbgk'
       }
-    ]
+    ],
+    footer: `Made with <a href='https://open.spotify.com/user/12140522458/playlist/4XMKibrbtfYeG83SdVD3Ez?si=Kq2ihazsQY-x58yafKsVaA' alt='Link to Spotify Playlist Tasty Beats.' target='_blank' rel='noopener noreferrer'>🎵</a> and 🍵`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
