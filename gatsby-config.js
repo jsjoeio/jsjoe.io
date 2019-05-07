@@ -23,6 +23,9 @@ module.exports = {
         link: 'https://chrome.google.com/webstore/detail/timezoner/kfnfgcafkeoflpapeniggnnkcaijgbgk'
       }
     ],
+    pullRequests: {
+      url: 'https://github.com/pulls?q=is%3Apr+author%3Ajsjoeio+-user%3Ajsjoeio+is%3Amerged+is%3Apublic'
+    },
     footer: `Made with <a href='https://open.spotify.com/user/12140522458/playlist/4XMKibrbtfYeG83SdVD3Ez?si=Kq2ihazsQY-x58yafKsVaA' alt='Link to Spotify Playlist Tasty Beats.' target='_blank' rel='noopener noreferrer'>🎵</a> and 🍵`
   },
   plugins: [

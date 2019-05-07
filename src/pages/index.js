@@ -6,6 +6,7 @@ import About from '../components/molecules/About'
 import Speaking from '../components/molecules/Speaking'
 import Writing from '../components/molecules/Writing'
 import Projects from '../components/molecules/Projects'
+import OSS from '../components/molecules/OSS'
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Speaking />
     <Writing />
     <Projects />
+    <OSS />
   </Layout>
 )
 
