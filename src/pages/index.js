@@ -3,15 +3,13 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import About from '../components/atoms/About'
+import Speaking from '../components/atoms/Speaking'
 
 const IndexPage = () => (
   <Layout>
     <SEO title='JavaScript Joe' keywords={[`joe previte`, `javascript`, `joe`]} />
     <About />
-    <section>
-      <h3>Speaking</h3>
-      <p>cool stuff here</p>
-    </section>
+    <Speaking />
     <section>
       <h3>Writing</h3>
       <ul>
