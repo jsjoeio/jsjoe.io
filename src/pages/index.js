@@ -4,20 +4,14 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import About from '../components/atoms/About'
 import Speaking from '../components/atoms/Speaking'
+import Writing from '../components/atoms/Writing'
 
 const IndexPage = () => (
   <Layout>
     <SEO title='JavaScript Joe' keywords={[`joe previte`, `javascript`, `joe`]} />
     <About />
     <Speaking />
-    <section>
-      <h3>Writing</h3>
-      <ul>
-        <li>article</li>
-        <li>article</li>
-        <li>article</li>
-      </ul>
-    </section>
+    <Writing />
     <section>
       <h3>Selected Personal Projects</h3>
       <div>
