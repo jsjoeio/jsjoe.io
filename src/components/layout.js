@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import Header from './atoms/Header'
 import Footer from './atoms/Footer'
+import GlobalStyle from '../utils/globalStyles'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,6 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header />
+        <GlobalStyle />
         <div
           style={{
             margin: `0 auto`,
