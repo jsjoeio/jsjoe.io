@@ -7,6 +7,7 @@ import Speaking from '../components/moleculez/Speaking'
 import Writing from '../components/moleculez/Writing'
 import Projects from '../components/moleculez/Projects'
 import OSS from '../components/moleculez/OSS'
+import Newsletter from '../components/moleculez/Newsletter'
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Writing />
     <Projects />
     <OSS />
+    <Newsletter />
   </Layout>
 )
 
