@@ -13,9 +13,9 @@ module.exports = {
     <p>I also offer virtual <a href="https://twitter.com/jsjoeio/status/1084602384884523009?s=20" alt='Link to tweet about office hours.' target='_blank' rel='noopener noreferrer'>office hours</a> if you want to chat about coding, get advice, want to teach me something cool, or need somewhere to vent.</p><p>When I'm not coding, you might find me reading, working out, playing basketball or riding my bike.</p>`,
     portfolio: [
       {
-        title: '[WIP] mentored.dev',
-        description: 'A gamified learning platform to help you become a web developer. The idea is that it will take you from the beginning to being job-ready using interactive dialog-style lessons, quizzes and small tasks.',
-        link: 'https://staging.mentored.dev/'
+        title: '[MVP] mentored.dev',
+        description: 'A "gamified" learning platform to help you become a web developer. The idea is that it will take you from the beginning to being job-ready using interactive dialog-style lessons, quizzes and small tasks.',
+        link: 'https://mentored.dev/'
       },
       {
         title: 'Timezoner',
