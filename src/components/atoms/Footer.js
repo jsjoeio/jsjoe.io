@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import SocialIcons from '../molecules/SocialIcons'
+import SocialIcons from '../moleculez/SocialIcons'
 
 const Container = styled.footer`
   text-align: center;

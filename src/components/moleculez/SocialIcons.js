@@ -35,6 +35,7 @@ const SocialIcons = () => {
       <Icon icon={faTwitter} url={`${socialSites.twitter.url}${twitter}`} alt="Link to javascript joe's twitter" />
       <Icon icon={faGithub} url={`${socialSites.github.url}${github}`} alt="Link to javascript joe's github" />
       <Icon icon={faDev} url={`${socialSites.devto.url}${devto}`} alt="Link to javascript joe's dev.to profile" />
+      <Icon icon={faEnvelope} url={`${socialSites.devto.url}${devto}`} alt="Link to javascript joe's dev.to profile" />
     </div>
   )
 }
