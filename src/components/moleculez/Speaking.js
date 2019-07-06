@@ -5,6 +5,7 @@ const Speaking = () => (
   <section>
     <h3>Speaking</h3>
     <table>
+      <tbody>
       <tr>
         <th style={{ paddingTop: '0' }}>Title</th>
         <th style={{ paddingTop: '0' }}>Date</th>
@@ -15,6 +16,7 @@ const Speaking = () => (
           <td>{talk.date}</td>
         </tr>
       ))}
+      </tbody>
     </table>
   </section>
 )
