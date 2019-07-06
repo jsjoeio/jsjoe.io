@@ -10,7 +10,7 @@ const Speaking = () => (
         <th style={{ paddingTop: '0' }}>Date</th>
       </tr>
       {talks.map(talk => (
-        <tr>
+        <tr key={talk.title}>
           <td><a href={talk.link} alt={`Link for information related to ${talk.title}`} target='_blank' rel='noopener noreferrer'>{talk.title}</a></td>
           <td>{talk.date}</td>
         </tr>

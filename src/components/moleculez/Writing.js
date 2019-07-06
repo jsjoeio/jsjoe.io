@@ -7,7 +7,7 @@ const Writing = () => (
     <Title>Writing</Title>
     <ul style={{ marginBottom: '1.666rem', marginLeft: '1rem' }}>
       {articles.map(article => (
-        <li>
+        <li key={article.title}>
           <a href={article.link} alt={`Link to article ${article.title}.`} target='_blank' rel='noopener noreferrer'>{article.title}</a>
         </li>
       ))}
