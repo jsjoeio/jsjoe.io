@@ -1,5 +1,13 @@
 const articles = [
   {
+    title: 'How to Create Code Profiles in VSCode ',
+    link: 'https://dev.to/jsjoeio/how-to-create-code-profiles-in-vscode-3ofo'
+  },
+  {
+    title: 'React Native - Adding App Icons for Android',
+    link: 'https://dev.to/jsjoeio/react-native-adding-app-icons-for-android-47e7'
+  },
+  {
     title: 'The Practical Checklist for Getting a Job',
     link: 'https://dev.to/jsjoeio/the-practical-checklist-for-getting-a-job-150n'
   },
