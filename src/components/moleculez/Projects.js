@@ -20,7 +20,7 @@ const Projects = () => {
     <section>
       <Title>Selected Projects</Title>
       {data.site.siteMetadata.portfolio.map(portfolioItem => (
-        <div>
+        <div key={portfolioItem.title}>
           <h4 style={{ marginBottom: '16px' }}><a href={portfolioItem.link} target='_blank' rel='noopener noreferrer'>{portfolioItem.title}</a></h4>
           <p>{portfolioItem.description}</p>
         </div>
